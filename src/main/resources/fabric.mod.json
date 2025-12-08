@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tungstenmod",
+	"version": "${version}",
+	"name": "Tungsten Mod",
+	"description": "This mod adds the tungsten metal to Minecraft.",
+	"authors": [
+		"TheNameIsLinus"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tungstenmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thenameislinus.tungstenmod.TungstenMod"
+		],
+		"fabric-datagen": [
+			"net.thenameislinus.tungstenmod.TungstenModDataGenerator"
+		],
+        "client": [
+            "net.thenameislinus.tungstenmod.TungstenModClient"
+        ]
+	},
+	"mixins": [
+		"tungstenmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
