@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "tungsten",
+  "ingredient": {
+    "item": "tungstenmod:raw_tungsten"
+  },
+  "result": {
+    "id": "tungstenmod:tungsten_ingot"
+  }
+}
