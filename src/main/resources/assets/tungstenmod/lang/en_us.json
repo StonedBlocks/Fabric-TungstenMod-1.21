@@ -6,7 +6,8 @@
 
   "block.tungstenmod.tungsten_block": "Block of Tungsten",
   "block.tungstenmod.tungsten_ore": "Tungsten Ore",
-  "block.tungstenmod.deepslate_tungsten_ore": "Deepslate Tungsten Ore"
+  "block.tungstenmod.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
 
+  "trim_material.tungstenmod.tungsten": "Tungsten Material"
 
 }

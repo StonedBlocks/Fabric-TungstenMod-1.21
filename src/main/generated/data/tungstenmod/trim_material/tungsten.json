@@ -1,0 +1,9 @@
+{
+  "asset_name": "tungsten",
+  "description": {
+    "color": "#B03FE0",
+    "translate": "trim_material.tungstenmod.tungsten"
+  },
+  "ingredient": "tungstenmod:tungsten_ingot",
+  "item_model_index": 0.3
+}

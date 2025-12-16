@@ -16,9 +16,8 @@ public class ItemEntityMixin {
 
     private static final Item[] HEAVY_ITEMS = {
             ModItems.TUNGSTEN_INGOT,
-            ModItems.RAW_TUNGSTEN
-
-
+            ModItems.RAW_TUNGSTEN,
+            ModItems.TUNGSTEN_BOOTS
     };
 
     private boolean isHeavy(ItemStack stack) {
