@@ -33,7 +33,6 @@ public class ModBlocks {
                     AbstractBlock.Settings.copyShallow(TUNGSTEN_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(5.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)
             )
     );
-    public static final Block C
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -2,5 +2,11 @@
   "item.tungstenmod.tungsten_ingot": "Tungsten Ingot",
   "item.tungstenmod.raw_tungsten": "Raw Tungsten",
 
-  "block.tungstenmod.tungsten_block": "Block of Tungsten"
+  "item.tungstenmod.tungsten_boots": "Tungsten Boots",
+
+  "block.tungstenmod.tungsten_block": "Block of Tungsten",
+  "block.tungstenmod.tungsten_ore": "Tungsten Ore",
+  "block.tungstenmod.deepslate_tungsten_ore": "Deepslate Tungsten Ore"
+
+
 }

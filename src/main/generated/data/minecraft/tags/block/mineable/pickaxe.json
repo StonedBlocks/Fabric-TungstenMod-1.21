@@ -1,5 +1,7 @@
 {
   "values": [
+    "tungstenmod:tungsten_ore",
+    "tungstenmod:deepslate_tungsten_ore",
     "tungstenmod:tungsten_block"
   ]
 }
