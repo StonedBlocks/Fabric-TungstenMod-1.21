@@ -12,9 +12,13 @@ public class ModItems {
     public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new Item.Settings()));
     public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten", new Item(new Item.Settings()));
 
-    public static final Item TUNGSTEN_BOOTS = registerItem("tungsten_boots",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+    public static final Item TUNGSTEN_BOOTS = registerItem("tungsten_boots", new ArmorItem(ModArmorMaterials.TUNGSTEN_ARMOR_MATERIAL,
+            ArmorItem.Type.BOOTS,
+            new Item.Settings()));
+
+
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TungstenMod.MOD_ID, name), item);

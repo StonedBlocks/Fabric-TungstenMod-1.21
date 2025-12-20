@@ -22,7 +22,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.LEGGINGS, 4);
                 map.put(ArmorItem.Type.CHESTPLATE, 6);
                 map.put(ArmorItem.Type.HELMET, 2);
-            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+            }), 9, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(TungstenMod.MOD_ID, "tungsten"))), 0, 0));
 
 
